@@ -1,0 +1,15 @@
+.previewtext{
+color: black;
+font-size: x-large;
+
+border: #2c3e50;
+border-style: double;
+border-radius: 10px;
+background: lightgray;
+padding: 5px  15px;
+}
+
+.cornericon{
+margin-top: 80px;margin-right: 80px;width: 35%;
+float: right;
+margin: 12px 12px 2px 2px;}

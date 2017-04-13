@@ -193,8 +193,8 @@ section.success {
   }
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
+    margin: 0 0 15px;
+    right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -211,6 +211,7 @@ section.success {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+  border-radius: 10px;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
@@ -237,7 +238,7 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 0 20px;
   }
 }
 .floating-label-form-group {
