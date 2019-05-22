@@ -70,11 +70,13 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img id="profile" class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
+                      <span class="shadowtext">
                         <h1 class="name">Björn Veit</h1>
                         <hr class="star-light">
                         <span class="skills">Computer scientist and athlete, the <em>perfect</em> combination.</span>
+                      </span>
                     </div>
                 </div>
             </div>
@@ -93,105 +95,126 @@
             <div class="row ">
 
               <!-- bball -->
-              <div class="col-sm-4 portfolio-item">
+              <div class="col-sm-3 portfolio-item">
 
-                  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                  <a href="#CoachingModal" class="portfolio-link" data-toggle="modal">
                       <div class="caption">
                           <div class="caption-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
 
-                      <div class="previewtext">
-                        <img src="img/mine/bblogo.png" class="img-responsive cornericon" alt="Basketball">
-
-                <!-- TEXT -->
-
-                        I started playing Basketball at the age of 16 and never stopped since.
-                        I truly love the mix of hustle, individual skills and team performance.
-                        Basically I love everything about this sport.
-                    </div>
+                        <img src="img/portfolio/Coaching.PNG" class="img-responsive portfolio-icon" alt="Basketball">
+                        
                   </a>
               </div>
+                <!-- Devils -->
+                <div class="col-sm-3 portfolio-item">
+                                        
 
-              <!-- Uni -->
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#DevilsModal" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/mine/unilogo.png" class="img-responsive cornericon" alt="Uni Bremen">
-
-                        <div class="previewtext">
-                          I study computer science at the University of Bremen. <br />
-                          I will be done with my bachelor's degree this summer
-                          and I'm looking to follow it up with a master's degree
-                          right a way.
-                        </div>
+                        <img src="img/portfolio/Devils.png" class="img-responsive portfolio-icon" alt="Devils-icon">
+                    
                     </a>
                 </div>
-
+               <!-- LHD -->
+               <div class="col-sm-3 portfolio-item ">
+                <a href="#lhdModal" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/lhdlogo.svg" class="img-responsive portfolio-icon" alt="Local Hack Day">
+                   
+                </a>
+            </div>
                 <!-- fittness -->
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#FitnessModal" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/mine/fitlogo.svg" class="img-responsive cornericon" alt="fittness">
-                        <div class="previewtext">
-                          I do a lot of body weight training to become a better
-                          player and athlete. I truly believe that being a computer
-                          scientist and an athlete at the same time is a perfect
-                          combination.
-                        </div>
+                        <img src="img/portfolio/fitlogo.svg" class="img-responsive portfolio-icon" alt="fittness">
+                      
                     </a>
                 </div>
+              
+              
+
+            </div>
+            <div class="row">
+
+                 <!-- GSOC -->
+                 <div class="col-sm-3 portfolio-item">
+                    <a href="#GSOCModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        
+                            <img src="img/portfolio/GSoC-icon.png" class="img-responsive portfolio-icon" alt="Uni Bremen">
+                    </a>
+                </div>
+
+                   <!-- Uni -->
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#UniModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        
+                            <img src="img/portfolio/unilogo.png" class="img-responsive portfolio-icon" alt="Uni Bremen">
+                    </a>
+                </div>
+
+                 <!-- IAI -->
+                 <div class="col-sm-3 portfolio-item">
+                    <a href="#IAIModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        
+                            <img src="img/portfolio/iai_unibremen.png" class="img-responsive portfolio-icon" alt="Uni Bremen">
+                    </a>
+                </div>
+                <!-- BaseDart -->
+
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#BaseDartModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/BaseDart.PNG" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+             
+                <!-- 
+              <div class="col-md-6 col-lg-4">
+                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                      <i class="fas fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+                </a>
               </div>
-              <div class="row ">
-                <!-- LHD -->
-                <div class="col-sm-4 portfolio-item col-sm-offset-2">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/mine/lhdlogo.svg" class="img-responsive cornericon" alt="Local Hack Day">
-                        <div class="previewtext">
-                          I'm proud to say that I was one of the organizers of
-                          the MLH Local Hack Day at the University of Bremen.
-                        </div>
-                    </a>
-                </div>
-
-                <!-- chess -->
-                <div class="col-sm-4 portfolio-item">
-                      <div class="previewtext" style="max-width: 400px; margin: 0 auto">
-                        <img src="img/mine/Chess_King.png" class="img-responsive cornericon" alt="chess-icon">
-
-                          In my childhood I was a quite successful chess player.
-                          I qualified for the German nationals multiple times
-                          over my career.
-                      </div>
-                </div>
-
-                <!--
-
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
-                    </a>
-                </div>
-              -->
+               -->
             </div>
         </div>
     </section>
@@ -200,6 +223,7 @@
 
     <section class="success" id="contact">
         <div class="container">
+          <span class="shadowtext">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
@@ -218,6 +242,7 @@
                   </p>
                 </div>
             </div>
+          </span>
         </div>
     </section>
 
@@ -239,7 +264,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="UniModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -254,31 +279,23 @@
                             <h2>University of Bremen</h2>
                             <hr class="star-primary">
                             <p>
-                              I started studying Computer Science in 2011 and I'm
-                              planning to graduate with my master's degree in the
-                              summer of 2019.
+                              I completed my Bachelor in Computer Science at the University of Bremen in 2019, with a final grade of 1.62.
                             </p>
                             <p>
-                              Ever since I completed the required courses for
-                              the bachelor, I started to orient mostly in the
-                              direction of machine learning und artificial
+                              In the second half of my studies, where you get to pick your classes more freely, 
+                              I started to orient in the direction of machine learning und artificial
                               intelligence. I'm a very logic driven person, so I
                               like the idea of algorithms being able to perform
                               smart actions, even thought they're based on simple
-                              logic. I'm also looking to complete the
-                              KIKR-Profile (Künstliche Intelligenz, Kognition und Robotik)
-                              within my master's degree.
+                              logic. 
                             </p>
                             <p>
-                              For the past 4 months, I've been working on my
-                              bachelor's project called <em>Arico Approximate Computing</em>,
-                              a university project, where I build arithmetic
-                              hardware with the capability to approximate the
-                              result, in a trade off for shorter calculation time.
-                              Now that I have spent a lot of time with building
-                              the actual hardware, I want to research how/if it
-                              can be used in machine learning. I will do this as
-                              my bachelor's thesis.
+                              As part of my studies all students have to work on a bachelor's project. 
+                              The project is being worked on for two semesters and is done by groups of around ten students.
+                              My bachelor's project was called <em>Arico Approximate Computing</em>,
+                              In the project one other student and I, were in charge of building arithmetic hardware with the capability to approximate the result, 
+                              in a trade off for shorter calculation time. We did this by adding instructions to a RISC-V processor that was run on an FPGA.
+                             
                             </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -287,7 +304,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="DevilsModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -301,26 +318,28 @@
                         <div class="modal-body">
                             <h2>Basketball</h2>
                             <hr class="star-primary">
-                            <img src="img/mine/bballlow.JPG" class="img-responsive img-centered" alt="">
+                            <img src="img/pictures/bballlow.JPG" class="img-responsive img-centered" alt="">
                             <p>
-                              Basketball is by far my most passionate hobby. I
-                              love that Basketball is such a high pace, action
-                              packed game. It makes it fun to watch, as well as
+                              Basketball is by far my most passionate hobby. 
+                              I started playing at the age of 16 and never stopped since. 
+                              I truly love the mix of hustle, individual skill and team performance.
+                              Basically I love everything about this sport.
+                              
+                              It is such a high pace, action
+                              packed game, which makes it fun to watch, as well as
                               always leaving a window open for a comeback.
                             </p>
                             <p>
-                              For
-                              me the high pace brings up a completely different
-                              aspect to the game – when playing you have to make
-                              fast decisions, where you don't have time to
-                              overthink. I find this really refreshing, since
+                              For me the high pace brings a completely different
+                              aspect to the table – when playing you have to make
+                              fast decisions and don't have time to
+                              overthink. I find this refreshing, since
                               I'm usually the kind of person who always thinks about
                               everything a little to much.
                             </p>
                             <p>
-                              I play Basketball for the <em>DTV Devils</em> in
-                              Delmenhorst. We managed to become third in the
-                              Oberliga-West this year. If you want to know more,
+                              I play and <a href="#CoachingModal" class="portfolio-link" data-toggle="modal">coach</a> Basketball for the <em>DTV Devils</em> in
+                              Delmenhorst. If you want to know more,
                               check out the <a href="http://www.dtv-devils.de/">team's website</a>.
                             </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -330,7 +349,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="FitnessModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -345,41 +364,33 @@
                           <h2>Bodyweight Training</h2>
                           <hr class="star-primary">
                           <p>
-                            Why do I think being an athlete and a Computer
-                            Scientist is a perfect combination, you might ask.
+                            I do a lot of body weight training to become a better Basketball-Player
+                            and athlete. I truly believe that being a computer
+                            scientist and athlete at the same time is a perfect
+                            combination. Let me explain why.
+                          </p>
+
+                          <p>
+                            When people think about a  workout only think about the physical exhaustion of their body.
+                            They don't think about the positive effect it has on you mentally, really pushing yourself to your limits will completely clear your head.
+                            A long day at the office on the other hand is exhausting for you mentally, but most of the time not for your body.
+                            So complementing an office day with a short bodyweight-workout, brings a great balance to your life, 
+                            as it will exhaust you physically and cleanse the mental exhaustion you have from work.
                           </p>
                           <p>
-                            Well, going to your limits and beyond will clear
-                            your head completely, which is most useful when
-                            you're stuck with a problem of any kind. If you
-                            don't believe me just try it yourself the next time
-                            you're stuck finding an error in your code and can't
-                            seem to wrap your head around it.
-                            Do an exhausting 30&nbsp;min workout. You can find
-                            plenty you can do anywhere anytime on the internet
-                            (you can ask me, too). Afterwards you get a fresh
-                            start at tackling the problem at hand.
-                          </p>
-                          <p>
-                            Obviously I
-                            can't guarantee your success afterwards, but I'm
-                            sure you have a better chance of solving the problem
-                            this way, worst case you get more fit.
-                            I know what you're thinking – <em>"I can't just do a
-                            workout in the office"</em> – and I guess you are
-                            right, just do something when you get home then.
-                            Your head will just be more clear in general and it
-                            brings great balance to the office/university life.
+                            The great thing about bodyweight workouts is that they don't require a membership of any kind.
+                            Everybody can do them at home, which means you don't waste any time going to the gym or coming back home.
+                            It will only take the time you work out and you can find plenty of workouts online
+                            that are done in 30 minutes or less. If you don't find anything, you can also just ask me.
                           </p>
                           <p>
                             I don't want to tell you how to live your life, but
-                            I can't imagine my life without sports. I'm just
-                            saying pushing your limits and having exhausted your
+                            I can't imagine my life without sports. Pushing myself to my limits and exhausting my
                             whole body completely is a great feeling for me, but
-                            you should check it out for yourself. Since bodyweight
-                            workouts don't require a membership you don't have
-                            any excuses anyway.
-                            </p>
+                            you should check it out for yourself. Like I said bodyweight
+                            workouts don't require a membership and can be done anywhere,
+                            so you don't have any excuses anyway.
+                           </p>
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -388,7 +399,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="BaseDartModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -400,31 +411,199 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Local Hack Day – University Bremen</h2>
+                          <h2>BaseDart</h2>
+                          <hr class="star-primary">
+                          <img src="img/pictures/BaseDart.PNG" class="img-responsive img-centered" alt="">
+                          <p>
+                             BaseDart is a little pet project of mine. Essentially it is a simple Dart-Checkout-Training game, but to add a little twist the player represents the pitcher of a Baseball game.
+                             In order to throw a good pitch in the game, the player needs to checkout a given score in a certain amount of darts in real life.
+                            </p>
+                            <p>
+                              To fully appreciate the game some knowledge of baseball is required, however I also have basic version that might be more suitable to the average Darts-Player, as it is less confusing if you don't know anything about Baseball.
+                              If you want to check it out you can find either version of the project on my GitHub <a href="https://github.com/bjoernveit/BaseDart">here</a>.
+                          </p>
+                          <p>
+                                The game is implemented in python and I also used it to play around with some self drawn animations.
+                          </p>
+
+                           <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="portfolio-modal modal fade" id="CoachingModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                          <h2>Basketball Coaching</h2>
+                          <hr class="star-primary">
+                          <p>
+                                I started coaching Basketball 2017 and I have been the head coach of the DTV Devils U16 since.
+                                Sharing my Basketball knowledge and passion, is a great pleasure to me.
+                                I have to admit that when I first started in 2017, the job was a lot more challenging than I thought. 
+                                That is why I got my official C-Breitensport Trainers License in 2018, which gave me a much better grasp 
+                                on how to structure my practices, to keep the kids interested and focused trough out the whole practice session.
+                                I have to plan and run two practices a week, one of which is a mixed practice for the U14 and U16 team, which means that 
+                                I regularly have 20+ kids of many different skill levels and one assistant-coach in the gym. 
+                                Having a well structured practice plan is key to keep everything running smoothly and with a certain intensity.
+                          </p>
+                          <p>
+                                A team sport like Basketball, teaches young kids so much more than the sport itself. 
+                                Not only do they learn how to work as a team, but also how to become a team in the first place. Playing as a 
+                                team requires a great deal of trust in your teammates, that has to be earned and given between each and every player.
+                                They also learn that there are no shortcuts to success, the only way to get good at something is by putting in the work.
+                                Lastly they need to take responsibility for themselves and each other, which is something most people are not good at.
+                                It is much easier to point the finger at someone, than to admit that you messed up, 
+                                luckily if you admit your mistakes a good team will always be there to support you.
+                          </p>
+                          <p>
+                                My goal as a coach is not to win games, but to develope young players the best way I can and my players know this.
+                                One implication is that bad players who work hard, get more playing time than good players who always slack off and mess around.
+                                Sadly most youth coaches are only about winning, which will only develope the stronger players and leave most of the team behind.        
+                          </p>
+                          
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="GSOCModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                              <h2>Google Summer of Code</h2>
+                              <hr class="star-primary">
+                              <p>
+                                 Google Summer of Code is stipend that allows students to work on an open source project, for a 3 month period.
+                                 Personally I worked on the project 
+                                 <a href="https://gist.github.com/bjoernveit/5de7c31375e50762c0000d565a763d78">"KnowRob visualization in RobCoG"</a>
+                                  from the Institute of Artificial Intelligence at the University of Bremen.
+                              </p>
+                              <p>
+                                 The goal and result of the project was to create a plugin for Unreal Engine 4 
+                                 that has basic marker and trajectory visualization functions that are controlled from ROS
+                                 (Robot Operating System) and not the system Unreal Engine 4 is running on. 
+
+                                 The resulting plugin <i>DisplayTypes</i> and can be found <a href="https://github.com/bjoernveit/UDisplayTypes/tree/gsoc18">here</a>.
+                              </p>                             
+                              
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="IAIModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                  <h2>Institute of Artificial Intelligence</h2>
+                                  <hr class="star-primary">
+                                  <p>
+                                        The <a href="https://ai.uni-bremen.de/">Institute of Artificial Intelligence</a> is the university institute that had the biggest impact on my studies.
+                                        Not only did I take a number of courses they offered, I also worked for them as part of Google Summer of Code 2018 and
+                                        building on that experience I decided to also write my Bachelor-Thesis (<a href="./thesis_bjoern_veit.pdf" target="_blank"><i>"Translating Symbolic Environments to Game Engines"</i></a>) there.
+                                        The code written for the thesis is split among multiple repositories, all of which are linked in the main repository <a href="https://github.com/robcog-iai/knowrob_robcog/tree/sem-map-cpp">here</a>.                     
+                                  </p><p>      Below is the abstract of my thesis:
+                                  </p>
+                                  <i>
+                                  <div class="thesis-abstract"></div>
+                                  <p>
+                                        The goal of the thesis is to provide robots with a dynamically spawn-able simulation space in
+                                        a game engine. This is achieved by parsing a symbolic representation of the environment into
+                                        the robot’s knowledge base. All the needed information is then collected from this knowledge
+                                        base and used to spawn the parsed environment in a modern physics-based game engine,
+                                        namely Unreal Engine 4. The spawned environment is an exact representation of the symbolic
+                                        environment, that was parsed to begin with. This is tested and proved to be true. Additionally
+                                        the environment is fully connected to the knowledge base of the robot, this is showcased by
+                                        a few exemplary calls a robot would need to make in an simulation context. This means that
+                                        this thesis successfully provides a dynamically spawn-able simulation space, by translating a
+                                        symbolic environment to a game engine.
+                                  </p>
+                                  <p>
+                                        This thesis is of most interest to anybody who wants to build on the fundamental work done
+                                        in this thesis and use the provided simulation space, or anybody that is interested in the field
+                                        of robot simulation capabilities.
+
+                                  </p>
+                                    </div>
+                                </i>
+        
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div class="portfolio-modal modal fade" id="lhdModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Local Hack Day <br \> University Bremen</h2>
                             <hr class="star-primary">
-                            <img src="img/mine/lhd.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/pictures/lhd.jpg" class="img-responsive img-centered" alt="">
+                            <p> I'm proud to say that I was one of the organizers of 
+                                the MLH Local Hack Day at the University of Bremen.
+                            </p>
+                            
                             <p>
                               The Local Hack Day is a international MLH event,
-                              where all over the world small local 12h Hackdays
+                              where all over the world small local 12h Hackathons
                               took place at the same time, one of which I
                               organized with three fellow students.
                             </p>
                             <p>
-                              At hackdays
-                            like these you meet new people, learn new stuff
-                            and simply use the great work atmosphere to work
-                            on your own projects.
-                              Last year one of our sponsors
-                              (<a href="http://www.ubimax.de">UBiMAX</a>) brought
-                              two <i>Microsoft Hololenses</i> to the event.
+                                At a Hackathon like this you meet new people, learn new stuff
+                                and simply use the great work atmosphere to work
+                                on your own projects.
+                                In our case one of the sponsors 
+                                (<a href="http://www.ubimax.de">UBiMAX</a>) brought
+                                two <i>Microsoft Hololenses</i> to the event, 
+                                which was a cool experience since for many people there, 
+                                including myself, it was the first time trying out virtual reality.
                             </p>
-                            <p>
-
-                              If I sparked your interest, I'm sorry – the event
-                              took place in December 2016. I know it's still a
-                              long way to go, but we are definitely looking
-                              to organize another one at the end of 2017.
-                            </p>
+                           
                               <ul class="list-inline item-details">
                                 <li>Website:
                                     <strong><a href="http://lhdbremen.de">Local Hack Day Bremen</a>
@@ -454,7 +633,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
-    
+
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -465,8 +644,8 @@
   ga('send', 'pageview');
 
 </script>
-    
-    
+
+
 </body>
 
 </html>
